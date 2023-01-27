@@ -19,12 +19,15 @@ function add() {
 
 function save() {
   localStorage.setItem('NLWSetup@habits', JSON.stringify(nlwSetup.data))
+  // salva dados no navegador local
 }
 
 const data = JSON.parse(localStorage.getItem('NLWSetup@habits')) || {}
+// recebe os dados em 'data'
 
 nlwSetup.setData(data)
 nlwSetup.load()
+// inicia a lib
 
 // const data = {
 //   run: ['01-23', '01-24', '01-25'],
