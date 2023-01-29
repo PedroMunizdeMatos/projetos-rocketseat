@@ -35,4 +35,5 @@ nlwSetup.load()
 //   food: ['01-24', '01-25'],
 //   study: ['01-24', '01-25'],
 //   gym: ['01-24', '01-25']
+// formas de adicionar informações manualmente que não serão usadas pois a lib nlw fará esta função através de JS configurado previmente
 // }
